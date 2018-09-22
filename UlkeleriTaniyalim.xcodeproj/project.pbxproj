@@ -12,6 +12,9 @@
 		9F4F128D2156E60D00DE32E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F128B2156E60D00DE32E1 /* Main.storyboard */; };
 		9F4F128F2156E60E00DE32E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F128E2156E60E00DE32E1 /* Assets.xcassets */; };
 		9F4F12922156E60E00DE32E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F12902156E60E00DE32E1 /* LaunchScreen.storyboard */; };
+		9F4F129A2156E85500DE32E1 /* UlkelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F12992156E85500DE32E1 /* UlkelerCollectionViewCell.swift */; };
+		9F4F129C2156E8B400DE32E1 /* Ulkeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */; };
+		9F4F129E2156EAFC00DE32E1 /* UlkeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		9F4F128E2156E60E00DE32E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9F4F12912156E60E00DE32E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9F4F12932156E60E00DE32E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F4F12992156E85500DE32E1 /* UlkelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkelerCollectionViewCell.swift; sourceTree = "<group>"; };
+		9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulkeler.swift; sourceTree = "<group>"; };
+		9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UlkeList.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,10 +62,13 @@
 			children = (
 				9F4F12872156E60D00DE32E1 /* AppDelegate.swift */,
 				9F4F12892156E60D00DE32E1 /* ViewController.swift */,
+				9F4F12992156E85500DE32E1 /* UlkelerCollectionViewCell.swift */,
 				9F4F128B2156E60D00DE32E1 /* Main.storyboard */,
 				9F4F128E2156E60E00DE32E1 /* Assets.xcassets */,
 				9F4F12902156E60E00DE32E1 /* LaunchScreen.storyboard */,
 				9F4F12932156E60E00DE32E1 /* Info.plist */,
+				9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */,
+				9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */,
 			);
 			path = UlkeleriTaniyalim;
 			sourceTree = "<group>";
@@ -123,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9F4F12922156E60E00DE32E1 /* LaunchScreen.storyboard in Resources */,
+				9F4F129E2156EAFC00DE32E1 /* UlkeList.plist in Resources */,
 				9F4F128F2156E60E00DE32E1 /* Assets.xcassets in Resources */,
 				9F4F128D2156E60D00DE32E1 /* Main.storyboard in Resources */,
 			);
@@ -135,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F4F129C2156E8B400DE32E1 /* Ulkeler.swift in Sources */,
+				9F4F129A2156E85500DE32E1 /* UlkelerCollectionViewCell.swift in Sources */,
 				9F4F128A2156E60D00DE32E1 /* ViewController.swift in Sources */,
 				9F4F12882156E60D00DE32E1 /* AppDelegate.swift in Sources */,
 			);
