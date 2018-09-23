@@ -78,6 +78,7 @@
                     </view>
                     <connections>
                         <outlet property="collectionViewUlke" destination="I5H-c5-qv1" id="tEa-0b-ekh"/>
+                        <segue destination="ii9-fW-Q0k" kind="show" identifier="showDetail" id="Wmv-VH-9P6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -39,6 +39,21 @@ class ViewController: UIViewController,UICollectionViewDataSource,UICollectionVi
         collectionViewUlke.delegate = self
     }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        performSegue(withIdentifier: "showDetail", sender: listOfUlkeler[indexPath.row])
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == "showDetail"{
+            if let des = segue.destination as? UlkeViewController{
+                if let ulkeler = sender as? Ulkeler{
+                    des.ulkeler = ulkeler
+                }
+            }
+        }
+    }
+    
     func loadUlkeFromPropertyList(){
         let path = Bundle.main.path(forResource: "UlkeList", ofType: "plist")! as String
         let url = URL(fileURLWithPath: path)
