@@ -15,6 +15,7 @@
 		9F4F129A2156E85500DE32E1 /* UlkelerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F12992156E85500DE32E1 /* UlkelerCollectionViewCell.swift */; };
 		9F4F129C2156E8B400DE32E1 /* Ulkeler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */; };
 		9F4F129E2156EAFC00DE32E1 /* UlkeList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */; };
+		9FF4A31C215788EA00D8F416 /* UlkeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF4A31B215788EA00D8F416 /* UlkeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		9F4F12992156E85500DE32E1 /* UlkelerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkelerCollectionViewCell.swift; sourceTree = "<group>"; };
 		9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ulkeler.swift; sourceTree = "<group>"; };
 		9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = UlkeList.plist; sourceTree = "<group>"; };
+		9FF4A31B215788EA00D8F416 /* UlkeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UlkeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				9F4F12932156E60E00DE32E1 /* Info.plist */,
 				9F4F129B2156E8B400DE32E1 /* Ulkeler.swift */,
 				9F4F129D2156EAFC00DE32E1 /* UlkeList.plist */,
+				9FF4A31B215788EA00D8F416 /* UlkeViewController.swift */,
 			);
 			path = UlkeleriTaniyalim;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				9F4F129C2156E8B400DE32E1 /* Ulkeler.swift in Sources */,
 				9F4F129A2156E85500DE32E1 /* UlkelerCollectionViewCell.swift in Sources */,
 				9F4F128A2156E60D00DE32E1 /* ViewController.swift in Sources */,
+				9FF4A31C215788EA00D8F416 /* UlkeViewController.swift in Sources */,
 				9F4F12882156E60D00DE32E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
