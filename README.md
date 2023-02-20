@@ -1,2 +1,2 @@
-# UlkeleriTaniyalimApp
+# Ulkeleri Taniyalim App
 Swift 4.2 ile geliştirilen bir iOS 12 uygulamasıdır. Uygulamada ülkeler hakkında kısa bilgiler sunulmaktadır.
